@@ -26,7 +26,7 @@ for p in ${urls[@]}; do
     fi
 done
 	
-	gsettings set org.gnome.desktop.background picture-uri file:///home/taher/Pictures/bing-wallpapers/$filename
+	gsettings set org.gnome.desktop.background picture-uri file:///home/$USER/Pictures/bing-wallpapers/$filename
 else
         echo "Offline"
 fi
